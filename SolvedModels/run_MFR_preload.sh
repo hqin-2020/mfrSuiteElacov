@@ -19,7 +19,7 @@ fi
 
 for chiUnderline in 0.5
 do
-    for a_e in 0.15 0.14
+    for a_e in 0.14
     do
         for a_h in -1
         do
@@ -31,6 +31,7 @@ do
                     do
                         for psi_h in 1.0
                         do
+
                         
 # for chiUnderline in 0.5
 # do
