@@ -3,7 +3,7 @@
 nV=30
 nVtilde=0
 V_bar=1.0
-Vtilde_bar=1.0
+Vtilde_bar=0.0
 sigma_V_norm=0.132
 sigma_Vtilde_norm=0.0
 
@@ -66,7 +66,7 @@ do
 
 module load python/anaconda-2021.05
 
-python3 /project/lhansen/mfrSuite_Ela_midway3/SolvedModels/preload.py --chiUnderline ${chiUnderline} --a_e ${a_e} --a_h ${a_h} --gamma_e ${gamma_e} --gamma_h ${gamma_h} --psi_e ${psi_e} --psi_h ${psi_h} \
+python3 /project/lhansen/mfrSuiteElacov/SolvedModels/preload.py --chiUnderline ${chiUnderline} --a_e ${a_e} --a_h ${a_h} --gamma_e ${gamma_e} --gamma_h ${gamma_h} --psi_e ${psi_e} --psi_h ${psi_h} \
                                                     --nV ${nV} --nVtilde ${nVtilde} --V_bar ${V_bar} --Vtilde_bar ${Vtilde_bar} --sigma_V_norm ${sigma_V_norm} --sigma_Vtilde_norm ${sigma_Vtilde_norm} \
 
 EOF
