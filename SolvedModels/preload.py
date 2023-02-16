@@ -267,8 +267,6 @@ sigmaNefn = lambda x: np.transpose([vol(x) for vol in sigmaNe])
 sigmaNhfn = lambda x: np.transpose([vol(x) for vol in sigmaNh])
 
 bc = {'natural':True}
-dt = 1/12
-T = 1200
 
 modelInput = {'muX':muXfn, 'sigmaX':sigmaXfn, 'muG':muCe, 'sigmaG':sigmaCefn, 'muS':muSe, 'sigmaS':sigmaSefn, 'dt':dt, 'T' :T}
 expoElasExpertsC, priceElasExpertsC, _, _, costElasExpertsC, phit1ExpertsC, phit2ExpertsC = computeElas(modelsol['stateMatInput'], modelInput, bc, modelsol['x0'])
